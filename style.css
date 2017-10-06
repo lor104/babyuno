@@ -1,0 +1,27 @@
+:root {
+
+}
+
+* {
+  font-family: 'PierSans', sans-serif;
+}
+
+.bubble {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border: 2px solid black;
+  float: left;
+}
+
+#bubble2 {
+  background-color: green;
+}
+
+#container {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 2px solid black;
+  float: right;
+}
