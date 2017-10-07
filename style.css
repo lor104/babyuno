@@ -11,12 +11,16 @@
   height: 100px;
   background-color: red;
   border: 2px solid black;
-  float: left;
   border-radius: 50px;
+  margin: 10px;
+  position: fixed;
+  left: 0px;
+
 }
 
 #bubble2 {
   background-color: green;
+  left: 120px;
 }
 
 #container {
@@ -24,5 +28,7 @@
   height: 200px;
   background-color: blue;
   border: 2px solid black;
-  float: right;
+  position: fixed;
+  right: 0px;
+
 }

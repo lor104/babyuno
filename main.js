@@ -3,21 +3,25 @@ $(document).ready(function() {
   $('#bubble1').draggable({
     containment: "window",
     zIndex : "1",
-    revert : "invalid"
+    revert : true
   });
   $('#bubble2').draggable({
     containment: "window",
     zIndex : "1",
-    revert : "invalid"
+    revert : true
   });
 
   $('#container').droppable({
     accept: '.bubble',
     drop: function(event,ui) {
-      ui.draggable.fadeOut(function() {
-        ui.draggable.remove();
-      })
+      fillContainer( ui.draggable );
     }
   })
+
+function fillContainer( $item ) {
+    var colour = $item.css("background-color");
+    var body = $('body');
+    $('#container').css("background-color", colour);
+}
 
 })
