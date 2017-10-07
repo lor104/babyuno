@@ -19,8 +19,9 @@
 }
 
 #bubble2 {
-  background-color: green;
+  background: url("moose-only.png") no-repeat 25%;
   left: 120px;
+  background-size: 80%;
 }
 
 #container {
@@ -30,5 +31,6 @@
   border: 2px solid black;
   position: relative;
   left: 50%;
+  background-size: 10%;
 
 }
