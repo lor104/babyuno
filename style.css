@@ -1,7 +1,12 @@
 :root {
-  --black: #000000;
-  --blue: #c8ebf2;
-  --pink: #f2bcde;
+  --black: #353535;
+  --blue: #D8F0EA;
+  --pink: #FDE0CF;
+  --red: #F91C4C;
+  --yellow: #DDEF59;
+  --purple: #CDCDF9;
+  --green: #05CCA6;
+
 }
 
 * {
