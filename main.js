@@ -39,10 +39,8 @@ $(document).ready(function() {
   })
 
 function fillContainer( $item ) {
-    // var image = $item.css("background");
     var image;
     var imageTag = $item.context.id
-    console.log($item.context.id)
 
     switch (imageTag) {
       case "icon-moose":
@@ -64,10 +62,8 @@ function fillContainer( $item ) {
         image = 'images/sheep-yellow.svg'
         break;
     }
-    console.log(image)
     var body = $('body');
     $('#onesie-design').attr("src", image);
-    // $('#container').css("background-size", "50%");
 }
 
 })
