@@ -33,29 +33,41 @@ body {
   z-index: 1;
 }
 
-#icon-monkey {
+.monkey {
   left: 25%;
   top: 15%;
 }
-#icon-moose {
+.moose {
   left: 18%;
   top: 44%;
 }
-#icon-sheep {
+.sheep {
   left: 25%;
   bottom: 15%;
 }
-#icon-pig {
+.pig {
   right: 25%;
   top: 15%;
 }
-#icon-owl {
+.owl {
   right: 18%;
   top: 44%;
 }
-#icon-trex {
+.trex {
   right: 25%;
   bottom: 15%;
+}
+
+.icon-border {
+  position: fixed;
+  width: 90px;
+  margin: 5px;
+  /*z-index: 2;*/
+}
+
+.active-rotate {
+  transform: rotate(160deg);
+  transition-duration: 5s;
 }
 
 

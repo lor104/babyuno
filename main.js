@@ -66,4 +66,27 @@ function fillContainer( $item ) {
     $('#onesie-design').attr("src", image);
 }
 
+$('#icon-moose').mouseover(function() {$('#border-moose').toggleClass("active-rotate")});
+
+$('#icon-moose').mouseleave(function() {$('#border-moose').toggleClass("active-rotate")})
+
+$('#icon-owl').mouseover(function() {$('#border-owl').toggleClass("active-rotate")});
+
+$('#icon-owl').mouseleave(function() {$('#border-owl').toggleClass("active-rotate")})
+
+$('#icon-pig').mouseover(function() {$('#border-pig').toggleClass("active-rotate")});
+
+$('#icon-pig').mouseleave(function() {$('#border-pig').toggleClass("active-rotate")})
+
+$('#icon-trex').mouseover(function() {$('#border-trex').toggleClass("active-rotate")});
+
+$('#icon-trex').mouseleave(function() {$('#border-trex').toggleClass("active-rotate")})
+
+$('#icon-monkey').mouseover(function() {$('#border-monkey').toggleClass("active-rotate")});
+
+$('#icon-monkey').mouseleave(function() {$('#border-monkey').toggleClass("active-rotate")})
+
+$('#icon-sheep').mouseover(function() {$('#border-sheep').toggleClass("active-rotate")});
+
+$('#icon-sheep').mouseleave(function() {$('#border-sheep').toggleClass("active-rotate")})
 })
