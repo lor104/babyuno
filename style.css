@@ -4,7 +4,7 @@
   --pink: #FDE0CF;
   --red: #F91C4C;
   --yellow: #DDEF59;
-  --purple: #CDCDF9;
+  --purple: #ACACF2;
   --green: #05CCA6;
 
 }
@@ -15,7 +15,7 @@
 
 html {
   max-height: 100%;
-  overflow-y: hidden;
+  /*overflow-y: hidden;*/
 }
 
 body {
@@ -23,18 +23,39 @@ body {
 }
 
 .icon {
-  width: 100px;
-  height: 100px;
-  border-radius: 50px;
+  width: 90px;
+  height: 90px;
+  border-radius: 45px;
   margin: 5px;
-  float: left;
-  clear: left;
+  position: fixed;
+  /*float: left;*/
+  /*clear: left;*/
   z-index: 1;
 }
 
-#icons {
-  position: relative;
-  top: -100%;
+#icon-monkey {
+  left: 25%;
+  top: 15%;
+}
+#icon-moose {
+  left: 18%;
+  top: 44%;
+}
+#icon-sheep {
+  left: 25%;
+  bottom: 15%;
+}
+#icon-pig {
+  right: 25%;
+  top: 15%;
+}
+#icon-owl {
+  right: 18%;
+  top: 44%;
+}
+#icon-trex {
+  right: 25%;
+  bottom: 15%;
 }
 
 
