@@ -1,18 +1,38 @@
 $(document).ready(function() {
 
-  $('#moose').draggable({
+  $('#icon-moose').draggable({
     containment: "window",
     zIndex : "1",
     revert : true
   });
-  $('#bubble2').draggable({
+  $('#icon-owl').draggable({
+    containment: "window",
+    zIndex : "1",
+    revert : true
+  });
+  $('#icon-pig').draggable({
+    containment: "window",
+    zIndex : "1",
+    revert : true
+  });
+  $('#icon-trex').draggable({
+    containment: "window",
+    zIndex : "1",
+    revert : true
+  });
+  $('#icon-monkey').draggable({
+    containment: "window",
+    zIndex : "1",
+    revert : true
+  });
+  $('#icon-sheep').draggable({
     containment: "window",
     zIndex : "1",
     revert : true
   });
 
   $('#container').droppable({
-    accept: '.bubble',
+    accept: '.icon',
     drop: function(event,ui) {
       fillContainer( ui.draggable );
     }
@@ -25,11 +45,23 @@ function fillContainer( $item ) {
     console.log($item.context.id)
 
     switch (imageTag) {
-      case "moose":
+      case "icon-moose":
         image = 'images/moose-red.svg'
         break;
-      case "bubble2":
-        image = 'red';
+      case "icon-owl":
+        image = 'images/owl-purple.svg'
+        break;
+      case "icon-pig":
+        image = 'images/pig-red.svg'
+        break;
+      case "icon-trex":
+        image = 'images/trex-green.svg'
+        break;
+      case "icon-monkey":
+        image = 'images/monkey-purple.svg'
+        break;
+      case "icon-sheep":
+        image = 'images/sheep-yellow.svg'
         break;
     }
     console.log(image)
