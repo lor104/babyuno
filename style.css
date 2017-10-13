@@ -22,6 +22,19 @@ body {
   margin: 0;
 }
 
+.drop {
+  cursor: grab;
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+  z-index: 1;
+}
+.drop:active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+  z-index: 1;
+}
+
 .icon {
   width: 90px;
   height: 90px;
@@ -75,6 +88,7 @@ body {
   bottom: 5%;
   z-index: 1;
 }
+
 .color-border {
   position: fixed;
   bottom: 5%;
