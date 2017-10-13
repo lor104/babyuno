@@ -1,51 +1,11 @@
 $(document).ready(function() {
 
-  $('#icon-moose').draggable({
+  $('.color').draggable({
     containment: "window",
     zIndex : "1",
     revert : true
   });
-  $('#icon-owl').draggable({
-    containment: "window",
-    zIndex : "1",
-    revert : true
-  });
-  $('#icon-pig').draggable({
-    containment: "window",
-    zIndex : "1",
-    revert : true
-  });
-  $('#icon-trex').draggable({
-    containment: "window",
-    zIndex : "1",
-    revert : true
-  });
-  $('#icon-monkey').draggable({
-    containment: "window",
-    zIndex : "1",
-    revert : true
-  });
-  $('#icon-sheep').draggable({
-    containment: "window",
-    zIndex : "1",
-    revert : true
-  });
-  $('#color-red').draggable({
-    containment: "window",
-    zIndex : "1",
-    revert : true
-  });
-  $('#color-yellow').draggable({
-    containment: "window",
-    zIndex : "1",
-    revert : true
-  });
-  $('#color-purple').draggable({
-    containment: "window",
-    zIndex : "1",
-    revert : true
-  });
-  $('#color-green').draggable({
+  $('.icon').draggable({
     containment: "window",
     zIndex : "1",
     revert : true
@@ -64,9 +24,6 @@ function fillContainer( $item ) {
 
     var imageTag = $item.context.id;
     var element = document.getElementById(imageTag);
-    // console.log(element)
-    console.log("Is this a color: " + element.classList.contains("color"));
-    console.log("Is this a icon: " + element.classList.contains("icon"));
 
     if (element.classList.contains("icon")) {
       switch (imageTag) {
@@ -95,13 +52,9 @@ function fillContainer( $item ) {
           design = 'sheep';
           break;
       }
-    var body = $('body');
-    console.log(design)
-    $('#onesie-design').attr("src", image);
   }
+
   if (element.classList.contains("color")) {
-    console.log("this is a color");
-    console.log(imageTag)
     if (imageTag === "color-red") {
       switch (design) {
         case "moose":
@@ -187,10 +140,10 @@ function fillContainer( $item ) {
           break;
       }
     }
-    var body = $('body');
-    console.log(design)
-    $('#onesie-design').attr("src", image);
+
   }
+
+  $('#onesie-design').attr("src", image);
 }
 
 $('#icon-moose').mouseover(function() {$('#border-moose').toggleClass("active-rotate")});
