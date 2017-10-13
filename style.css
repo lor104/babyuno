@@ -72,15 +72,25 @@ body {
 
 .color {
   position: fixed;
-  bottom: 10%;
+  bottom: 5%;
+  z-index: 1;
 }
 .color-border {
   position: fixed;
-  bottom: 10%;
+  bottom: 5%;
 }
 
 .red {
-  left: 50%;
+  left: 40%;
+}
+.yellow {
+  left: 45.5%;
+}
+.purple {
+  right: 45.5%;
+}
+.green {
+  right: 40%;
 }
 
 
