@@ -70,6 +70,19 @@ body {
   transition-duration: 5s;
 }
 
+.color {
+  position: fixed;
+  bottom: 10%;
+}
+.color-border {
+  position: fixed;
+  bottom: 10%;
+}
+
+.red {
+  left: 50%;
+}
+
 
 #container {
   width: 500px;
