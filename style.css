@@ -1,7 +1,9 @@
 :root {
   --black: #353535;
-  --blue: #D8F0EA;
-  --pink: #FDE0CF;
+  --bluebackground: #D8F0EA;
+  --pinkbackground: #FDE0CF;
+  --blue: #A7E8D4;
+  --pink: #FCCEB6;
   --red: #F91C4C;
   --yellow: #DDEF59;
   --purple: #ACACF2;
@@ -154,7 +156,7 @@ nav a:active {
 }
 
 #background-blue {
-  background-color: var(--blue);
+  background-color: var(--bluebackground);
   width: 100%;
   height: 100%;
   float: left;
@@ -162,7 +164,7 @@ nav a:active {
 }
 
 #background-pink {
-  background-color: var(--pink);
+  background-color: var(--pinkbackground);
   float: right;
   width: 50%;
   height: 100%;

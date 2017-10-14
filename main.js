@@ -151,6 +151,21 @@ function fillContainer( $item ) {
 
 }
 
+const icons = document.querySelectorAll(".icon");
+// console.log(icons)
+icons.forEach(icon => icon.addEventListener("mouseover", designHover))
+
+function designHover(e) {
+  console.log(e.path)
+}
+
+const colors = document.querySelectorAll(".color");
+colors.forEach(color => color.addEventListener("mouseover", colorHover))
+
+function colorHover(e) {
+  console.log(e.path)
+}
+
 $('#icon-moose').mouseover(function() {$('#border-moose').toggleClass("active-rotate")});
 
 $('#icon-moose').mouseleave(function() {$('#border-moose').toggleClass("active-rotate")});
