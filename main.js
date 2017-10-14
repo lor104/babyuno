@@ -139,6 +139,48 @@ function fillContainer( $item ) {
           image = "images/sheep-purple.svg";
           break;
       }
+    } else if (imageTag === "color-pink") {
+      switch (design) {
+        case "moose":
+          image = "images/moose-pink.svg";
+          break;
+        case "owl":
+          image = "images/owl-pink.svg";
+          break;
+        case "pig":
+          image = "images/pig-pink.svg";
+          break;
+        case "trex":
+          image = "images/trex-pink.svg";
+          break;
+        case "monkey":
+          image = "images/monkey-pink.svg";
+          break;
+        case "sheep":
+          image = "images/sheep-pink.svg";
+          break;
+      }
+    } else if (imageTag === "color-blue") {
+      switch (design) {
+        case "moose":
+          image = "images/moose-blue.svg";
+          break;
+        case "owl":
+          image = "images/owl-blue.svg";
+          break;
+        case "pig":
+          image = "images/pig-blue.svg";
+          break;
+        case "trex":
+          image = "images/trex-blue.svg";
+          break;
+        case "monkey":
+          image = "images/monkey-blue.svg";
+          break;
+        case "sheep":
+          image = "images/sheep-blue.svg";
+          break;
+      }
     }
 
   }

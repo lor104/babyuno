@@ -97,16 +97,22 @@ body {
 }
 
 .red {
-  left: 40%;
+  left: 36.5%;
+}
+.pink {
+  left: 41%;
 }
 .yellow {
-  left: 45.5%;
+  left: 46%;
 }
 .purple {
-  right: 45.5%;
+  right: 46%;
+}
+.blue {
+  right: 41%;
 }
 .green {
-  right: 40%;
+  right: 36.5%;
 }
 
 
