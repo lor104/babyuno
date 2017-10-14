@@ -32,11 +32,11 @@ function fillContainer( $item ) {
           design = 'moose';
           break;
         case "icon-owl":
-          image = 'images/owl-purple.svg';
+          image = 'images/owl-blue.svg';
           design = 'owl';
           break;
         case "icon-pig":
-          image = 'images/pig-red.svg';
+          image = 'images/pig-pink.svg';
           design = 'pig';
           break;
         case "icon-trex":

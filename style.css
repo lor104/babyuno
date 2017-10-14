@@ -48,19 +48,19 @@ body {
   z-index: 1;
 }
 
-.monkey {
-  left: 25%;
-  top: 15%;
-}
-.moose {
+.pig {
   left: 18%;
   top: 44%;
+}
+.moose {
+  left: 25%;
+  top: 15%;
 }
 .sheep {
   left: 25%;
   bottom: 15%;
 }
-.pig {
+.monkey {
   right: 25%;
   top: 15%;
 }
