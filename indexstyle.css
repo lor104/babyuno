@@ -1,29 +1,3 @@
-:root {
-  --black: #353535;
-  --bluebackground: #D8F0EA;
-  --pinkbackground: #FDE0CF;
-  --blue: #A7E8D4;
-  --pink: #FCCEB6;
-  --red: #F91C4C;
-  --yellow: #DDEF59;
-  --purple: #ACACF2;
-  --green: #05CCA6;
-
-}
-
-* {
-  font-family: 'Avenir', sans-serif;
-}
-
-html {
-  max-height: 100%;
-  /*overflow-y: hidden;*/
-}
-
-body {
-  margin: 0;
-}
-
 .drop {
   cursor: grab;
   cursor: -webkit-grab;
@@ -132,33 +106,6 @@ body {
   width: 40%;
   left: 31%;
   top: 25%;
-
-}
-
-#baby-uno-logo {
-  z-index: 100;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  width: 175px;
-}
-
-nav {
-  padding-bottom: 5px;
-  border-bottom: 2px solid var(--black);
-  position: absolute;
-  right: 3%;
-  top: 4%;
-}
-
-nav a {
-  color: var(--black);
-  text-decoration: none;
-  padding: 30px 20px;
-}
-
-nav a:active {
-  font-weight: bold;
 }
 
 #background-blue {
