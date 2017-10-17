@@ -1,46 +1,54 @@
-:root {
-  --black: #353535;
-  --bluebackground: #D8F0EA;
-  --pinkbackground: #FDE0CF;
-  --blue: #A7E8D4;
-  --pink: #FCCEB6;
-  --red: #F91C4C;
-  --yellow: #DDEF59;
-  --purple: #ACACF2;
-  --green: #05CCA6;
-
+/** {
+  border: 1px solid blue;
+}*/
+#navigation {
+  height: 150px;
+  background-color: var(--bluebackground);
 }
 
-* {
-  font-family: 'Avenir', sans-serif;
+.shop {
+  width: 92%;
+  margin: 4%;
+  height: 350px;
+  vertical-align: middle;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#trex {
+  background-color: var(--pinkbackground);
+}
+#moose {
+  background-color: var(--bluebackground);
 }
 
-html {
-  max-height: 100%;
+.onesie {
+  width: 250px;
+  height: 250px;
+  background-size: 100%;
+  position: relative;
+  width: 100%;
 }
-
-body {
-  margin: 0;
+.onesie-img {
+  width: 100%;
 }
-
-#baby-uno-logo {
-  z-index: 100;
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  width: 175px;
-}
-
-nav {
-  padding-bottom: 5px;
-  border-bottom: 2px solid var(--black);
+.onesie-design {
   position: absolute;
-  right: 3%;
-  top: 4%;
+  left: 75px;
+  top: 60px;
+  width: 40%;
+  /*width: 100px;*/
+  z-index: 2;
+  /*transform: translateX(100px);
+  transform: translateY(-0px);*/
 }
 
-nav a {
+.onesie > a {
   color: var(--black);
+  position: absolute;
+  cursor: pointer;
   text-decoration: none;
-  padding: 30px 20px;
+  text-align: center;
+  width: 100%;
 }
