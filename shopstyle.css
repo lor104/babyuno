@@ -9,7 +9,7 @@
 .shop {
   width: 92%;
   margin: 4%;
-  height: 350px;
+  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -22,10 +22,9 @@
 }
 
 .onesie {
-  width: 10%;
+  width: 20%;
   height: 10%;
   position: relative;
-  width: 100%;
   margin: 3% 0;
 }
 .onesie-img {
@@ -44,6 +43,7 @@
   color: var(--black);
   position: absolute;
   cursor: pointer;
+  cursor: -webkit-pointer;
   text-decoration: none;
   text-align: center;
   /*width: 100%;*/
