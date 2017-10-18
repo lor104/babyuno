@@ -10,8 +10,6 @@
   width: 92%;
   margin: 4%;
   height: 350px;
-  vertical-align: middle;
-  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -24,24 +22,22 @@
 }
 
 .onesie {
-  width: 250px;
-  height: 250px;
-  background-size: 100%;
+  width: 10%;
+  height: 10%;
   position: relative;
   width: 100%;
+  margin: 3% 0;
 }
 .onesie-img {
   width: 100%;
 }
 .onesie-design {
   position: absolute;
-  left: 75px;
-  top: 60px;
+  /*left: 75px;*/
+  left: 31%;
+  top: 22%;
   width: 40%;
-  /*width: 100px;*/
   z-index: 2;
-  /*transform: translateX(100px);
-  transform: translateY(-0px);*/
 }
 
 .onesie > a {
@@ -50,5 +46,5 @@
   cursor: pointer;
   text-decoration: none;
   text-align: center;
-  width: 100%;
+  /*width: 100%;*/
 }
