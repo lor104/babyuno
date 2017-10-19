@@ -9,7 +9,6 @@
 .shop {
   width: 92%;
   margin: 4%;
-  height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -24,27 +23,37 @@
 .onesie {
   width: 20%;
   height: 10%;
-  position: relative;
   margin: 3% 0;
 }
 .onesie-img {
   width: 100%;
 }
 .onesie-design {
-  position: absolute;
-  /*left: 75px;*/
-  left: 31%;
-  top: 22%;
   width: 40%;
-  z-index: 2;
+  transform: translateY(-191%);
+  z-index: 1;
 }
 
-.onesie > a {
+.shop > a {
+  margin: 3% 6.5%;
+  width: 20%;
   color: var(--black);
-  position: absolute;
-  cursor: pointer;
-  cursor: -webkit-pointer;
   text-decoration: none;
+  cursor: -webkit-pointer;
+  cursor: pointer;
   text-align: center;
-  /*width: 100%;*/
+  display: inline-block;
+}
+
+a > span {
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+  top: -20%;
+  color: var(--black);
+  line-height: 1.75em;
+  z-index: 2;
 }
