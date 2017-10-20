@@ -16,10 +16,10 @@
   flex-wrap: wrap;
 }
 #trex {
-  background-color: var(--pinkbackground);
+  background-color: var(--lightpink);
 }
 #moose {
-  background-color: var(--bluebackground);
+  background-color: var(--lightblue);
 }
 
 .onesie {
