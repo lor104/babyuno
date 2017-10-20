@@ -21,6 +21,18 @@
 #moose {
   background-color: var(--lightblue);
 }
+#sheep {
+  background-color: var(--lightpink);
+}
+#pig {
+  background-color: var(--lightblue);
+}
+#owl {
+  background-color: var(--lightpink);
+}
+#monkey {
+  background-color: var(--lightblue);
+}
 
 .onesie {
   width: 20%;
