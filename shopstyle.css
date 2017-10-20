@@ -9,9 +9,11 @@
 .shop {
   width: 92%;
   margin: 4%;
+  padding-bottom: 3%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 #trex {
   background-color: var(--pinkbackground);
@@ -29,13 +31,14 @@
   width: 100%;
 }
 .onesie-design {
-  width: 40%;
-  transform: translateY(-191%);
+  width: 8%;
+  transform: translateY(-170%) translateX(67%);
   z-index: 1;
+  position: absolute;
 }
 
 .shop > a {
-  margin: 3% 6.5%;
+  margin: 3% 6.5% 0;
   width: 20%;
   color: var(--black);
   text-decoration: none;
@@ -52,7 +55,7 @@ a > span {
   display: inline-block;
   width: 100%;
   position: relative;
-  top: -20%;
+  margin-top: 5%;
   color: var(--black);
   line-height: 1.75em;
   z-index: 2;
