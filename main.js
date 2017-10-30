@@ -22,7 +22,14 @@ var design;
 function fillContainer( $item ) {
     var image;
 
-    var imageTag = $item.context.id;
+    var imageTag;
+    if (imageTag === undefined) {
+      imageTag = $item.id;
+    }
+    if (imageTag === undefined) {
+      imageTag = $item.context.id;
+    }
+
     var element = document.getElementById(imageTag);
 
     if (element.classList.contains("icon")) {
@@ -187,25 +194,43 @@ function fillContainer( $item ) {
 
   $('#onesie-design').attr("src", image);
 
-  $("#" + imageTag).fadeTo(200, 0, function() {
-    $(this).css('z-index', '-200').fadeTo(100, 1);
-  })
+  // $("#" + imageTag).fadeTo(200, 0, function() {
+  //   $(this).css('z-index', '-200').fadeTo(100, 1);
+  // })
 
 }
 
 const icons = document.querySelectorAll(".icon");
-// console.log(icons)
 icons.forEach(icon => icon.addEventListener("mouseover", designHover))
 
 function designHover(e) {
-  console.log(e.path)
 }
 
 const colors = document.querySelectorAll(".color");
 colors.forEach(color => color.addEventListener("mouseover", colorHover))
 
 function colorHover(e) {
-  console.log(e.path)
+  // console.log(e.path)
+}
+
+icons.forEach(icon => icon.addEventListener("vclick", mobileIconClick))
+$("#icon-moose").on("vclick", mobileIconClick);
+$("#icon-pig").on("vclick", mobileIconClick);
+$("#icon-owl").on("vclick", mobileIconClick);
+$("#icon-monkey").on("vclick", mobileIconClick);
+$("#icon-moose").on("vclick", mobileIconClick);
+$("#icon-trex").on("vclick", mobileIconClick);
+$("#color-red").on("vclick", mobileIconClick);
+$("#color-yellow").on("vclick", mobileIconClick);
+$("#color-pink").on("vclick", mobileIconClick);
+$("#color-green").on("vclick", mobileIconClick);
+$("#color-blue").on("vclick", mobileIconClick);
+$("#color-purple").on("vclick", mobileIconClick);
+
+
+
+function mobileIconClick(event) {
+  fillContainer(this);
 }
 
 $('#icon-moose').mouseover(function() {$('#border-moose').toggleClass("active-rotate")});
