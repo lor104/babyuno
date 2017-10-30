@@ -123,3 +123,77 @@
   height: 100%;
   z-index: -100;
 }
+
+@media only screen and (max-width: 320px) {
+
+  .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+
+  .pig {
+    left: 20%;
+    top: 67%;
+  }
+  .moose {
+    left: 10%;
+    top: 76%;
+  }
+  .sheep {
+    left: 30%;
+    bottom: 15%;
+  }
+  .monkey {
+    right: 10%;
+    top: 76%;
+  }
+  .owl {
+    right: 20%;
+    top: 67%;
+  }
+  .trex {
+    right: 30%;
+    bottom: 15%;
+  }
+
+  .icon-border {
+    width: 50px;
+    margin: 5px;
+  }
+
+  .color {
+    width: 30px;
+  }
+
+  .color-border {
+    width: 30px;
+  }
+
+  .red {
+    left: 11.5%;
+  }
+  .pink {
+    left: 25%;
+  }
+  .yellow {
+    left: 38%;
+  }
+  .purple {
+    right: 38%;
+  }
+  .blue {
+    right: 25%;
+  }
+  .green {
+    right: 11.5%;
+  }
+
+  #container {
+    width: 266px;
+    height: 266px;
+    transform: translateX(-133px);
+    top: 23%;
+  }
+
+}
