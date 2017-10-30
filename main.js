@@ -218,7 +218,7 @@ $("#icon-moose").on("vclick", mobileIconClick);
 $("#icon-pig").on("vclick", mobileIconClick);
 $("#icon-owl").on("vclick", mobileIconClick);
 $("#icon-monkey").on("vclick", mobileIconClick);
-$("#icon-moose").on("vclick", mobileIconClick);
+$("#icon-sheep").on("vclick", mobileIconClick);
 $("#icon-trex").on("vclick", mobileIconClick);
 $("#color-red").on("vclick", mobileIconClick);
 $("#color-yellow").on("vclick", mobileIconClick);
