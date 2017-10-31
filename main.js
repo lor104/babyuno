@@ -256,4 +256,6 @@ $('#icon-monkey').mouseleave(function() {$('#border-monkey').toggleClass("active
 $('#icon-sheep').mouseover(function() {$('#border-sheep').toggleClass("active-rotate")});
 
 $('#icon-sheep').mouseleave(function() {$('#border-sheep').toggleClass("active-rotate")});
+
+$.mobile.loading().hide();
 })
