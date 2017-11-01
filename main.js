@@ -214,18 +214,18 @@ function colorHover(e) {
 }
 
 icons.forEach(icon => icon.addEventListener("vclick", mobileIconClick))
-$("#icon-moose").on("vclick", mobileIconClick);
-$("#icon-pig").on("vclick", mobileIconClick);
-$("#icon-owl").on("vclick", mobileIconClick);
-$("#icon-monkey").on("vclick", mobileIconClick);
-$("#icon-sheep").on("vclick", mobileIconClick);
-$("#icon-trex").on("vclick", mobileIconClick);
-$("#color-red").on("vclick", mobileIconClick);
-$("#color-yellow").on("vclick", mobileIconClick);
-$("#color-pink").on("vclick", mobileIconClick);
-$("#color-green").on("vclick", mobileIconClick);
-$("#color-blue").on("vclick", mobileIconClick);
-$("#color-purple").on("vclick", mobileIconClick);
+$("#icon-moose").on("click", mobileIconClick);
+$("#icon-pig").on("click", mobileIconClick);
+$("#icon-owl").on("click", mobileIconClick);
+$("#icon-monkey").on("click", mobileIconClick);
+$("#icon-sheep").on("click", mobileIconClick);
+$("#icon-trex").on("click", mobileIconClick);
+$("#color-red").on("click", mobileIconClick);
+$("#color-yellow").on("click", mobileIconClick);
+$("#color-pink").on("click", mobileIconClick);
+$("#color-green").on("click", mobileIconClick);
+$("#color-blue").on("click", mobileIconClick);
+$("#color-purple").on("click", mobileIconClick);
 
 
 
@@ -257,5 +257,4 @@ $('#icon-sheep').mouseover(function() {$('#border-sheep').toggleClass("active-ro
 
 $('#icon-sheep').mouseleave(function() {$('#border-sheep').toggleClass("active-rotate")});
 
-$.mobile.loading().hide();
 })
