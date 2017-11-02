@@ -124,6 +124,137 @@
   z-index: -100;
 }
 
+@media only screen and (max-width: 768px) {
+  .pig {
+    left: 6%;
+    top: 44%;
+  }
+  .moose {
+    left: 12%;
+    top: 18%;
+  }
+  .sheep {
+    left: 12%;
+    bottom: 13%;
+  }
+  .monkey {
+    right: 12%;
+    top: 18%;
+  }
+  .owl {
+    right: 6%;
+    top: 44%;
+  }
+  .trex {
+    right: 12%;
+    bottom: 13%;
+  }
+
+  .red {
+    left: 30.5%;
+  }
+  .pink {
+    left: 37%;
+  }
+  .yellow {
+    left: 44%;
+  }
+  .purple {
+    right: 44%;
+  }
+  .blue {
+    right: 37%;
+  }
+  .green {
+    right: 30.5%;
+  }
+.color, .color-border {
+  bottom: 3%;
+}
+
+
+  #container {
+    width: 450px;
+    height: 450px;
+    transform: translateX(-225px);
+    top: 15%;
+  }
+
+@media only screen and (max-width: 500px) {
+  .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+  }
+
+  .pig {
+    left: 20%;
+    top: 67%;
+  }
+  .moose {
+    left: 10%;
+    top: 75%;
+  }
+  .sheep {
+    left: 30%;
+    bottom: 13.5%;
+  }
+  .monkey {
+    right: 10%;
+    top: 75%;
+  }
+  .owl {
+    right: 20%;
+    top: 67%;
+  }
+  .trex {
+    right: 30%;
+    bottom: 13.5%;
+  }
+
+  .icon-border {
+    width: 50px;
+    margin: 5px;
+  }
+
+  .color {
+    width: 30px;
+  }
+
+  .color-border {
+    width: 30px;
+  }
+
+  .red {
+    left: 11.5%;
+  }
+  .pink {
+    left: 25%;
+  }
+  .yellow {
+    left: 38%;
+  }
+  .purple {
+    right: 38%;
+  }
+  .blue {
+    right: 25%;
+  }
+  .green {
+    right: 11.5%;
+  }
+
+  #container {
+    width: 266px;
+    height: 266px;
+    transform: translateX(-133px);
+    top: 23%;
+  }
+
+}
+
+}
+
 @media only screen and (max-width: 500px) {
 
   .icon {

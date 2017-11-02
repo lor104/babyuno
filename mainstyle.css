@@ -46,6 +46,20 @@ nav a {
   padding: 30px 20px;
 }
 
+@media only screen and (max-width: 768px) {
+
+  #baby-uno-logo {
+    top: 14px;
+    left: 14px;
+    width: 150px;
+  }
+
+  nav {
+    right: 3%;
+    top: 5%;
+  }
+}
+
 @media only screen and (max-width: 500px) {
 
   #baby-uno-logo {
@@ -55,8 +69,43 @@ nav a {
   width: 89px;
   }
 
+  div#navigation {
+    width: 100%;
+    text-align: center;
+  }
+
   nav {
-  right: 12%;
+    width: 80%;
+    margin: 0 10%;
+  right: 0;
+  top: 12%;
+  }
+
+  nav a {
+  padding: 0px 7px;
+  }
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+
+  #baby-uno-logo {
+  top: 2%;
+  left: 50%;
+  transform: translateX(-49px);
+  width: 89px;
+  }
+
+  div#navigation {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav {
+    width: 80%;
+    margin: 0 10%;
+  right: 0;
   top: 12%;
   }
 
