@@ -96,7 +96,7 @@
   position: absolute;
   left: 50%;
   transform: translateX(-250px);
-  top: 20%;
+  top: 15%;
   background-image: url('images/onesie.png');
   background-size: 100%;
 }
@@ -171,13 +171,11 @@
 .color, .color-border {
   bottom: 3%;
 }
-
-
   #container {
     width: 450px;
     height: 450px;
     transform: translateX(-225px);
-    top: 15%;
+    top: 20%;
   }
 
 @media only screen and (max-width: 500px) {

@@ -1,0 +1,92 @@
+#navigation {
+  height: 150px;
+  background-color: var(--bluebackground);
+}
+
+.shop {
+  position: relative;
+  width: 90%;
+  margin: 2% 5%;
+  background-color: var(--pinkbackground);
+  /*height: 10px;*/
+}
+
+.onesie {
+  width: 45%;
+  padding: 5%;
+  transform: translateX(-5%);
+}
+
+.details {
+  width: 50%;
+  height: 100%;
+  background-color: var(--bluebackground);
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+}
+
+.details h2 {
+  font-weight: normal;
+}
+.color, .color-border {
+  width: 40px;
+}
+.color-border {
+  transform: translateX(-45px);
+}
+
+a > p {
+  display: inline-block;
+  transform: translateX(-30px) translateY(-14px);
+}
+.colors a {
+  display: block;
+  text-align: left;
+  text-decoration: none;
+  color: black;
+}
+
+.colors {
+  width: 50%;
+  margin: 2% 25% 0;
+  position: relative;
+  top: 15px;
+}
+
+.colors-left {
+  position: absolute;
+}
+
+.colors-right {
+  position: absolute;
+  transform: translateX(115%);
+}
+
+#sizes {
+  transform: translateY(200px);
+}
+#sizes a {
+  padding: 10px 25px;
+  line-height: 45px;
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+a#sizechart {
+  text-decoration: underline;
+  font-weight: normal;
+}
+a#buy {
+  padding: 10px 110px;
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  transform: translateY(210px);
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 3px;
+  display: inline-block;
+}
