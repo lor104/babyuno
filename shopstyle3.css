@@ -12,9 +12,29 @@
 }
 
 .onesie {
-  width: 45%;
-  padding: 5%;
-  transform: translateX(-5%);
+  width: 50%;
+  height: 90%;
+  position: relative;
+}
+#onesie-img {
+  width: 500px;
+  height: 500px;
+  top: 50%;
+  transform: translateY(-250px);
+  margin: auto;
+  position: relative;
+
+  background-image: url('images/onesie.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+#trex-image {
+  z-index: 2;
+  position: absolute;
+  width: 37%;
+  top: 24%;
+  left: 32%;
 }
 
 .details {
@@ -25,6 +45,9 @@
   top: 0;
   right: 0;
   text-align: center;
+}
+.details-container {
+  margin: 18% 0;
 }
 
 .details h2 {
@@ -38,7 +61,8 @@
 }
 .color-border {
   position: absolute;
-  left: 0;
+  /*left: 0;*/
+  transform: translateX(-44.5px);
 }
 
 a > p {
@@ -54,23 +78,25 @@ a > p {
 
 .colors {
   width: 50%;
-  margin-left: 28%;
-  position: relative;
-  top: 10px;
+  margin: auto;
+  /*position: relative;*/
+  column-count: 2;
 }
 
 .colors-left {
-  position: absolute;
+  /*position: absolute;*/
+  float: left;
 }
 
 .colors-right {
-  position: absolute;
-  transform: translateX(150%);
+  /*position: absolute;*/
+  /*transform: translateX(150%);*/
+  float: right;
 }
 
 #sizes {
-  transform: translateY(200px);
 }
+
 #sizes a {
   padding: 10px 25px;
   line-height: 45px;
@@ -88,7 +114,6 @@ a#buy {
   color: white;
   background-color: black;
   text-transform: uppercase;
-  transform: translateY(210px);
   text-decoration: none;
   font-weight: bold;
   letter-spacing: 3px;
