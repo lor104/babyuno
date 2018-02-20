@@ -46,7 +46,7 @@ nav a {
   padding: 30px 20px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1075px) {
 
   #baby-uno-logo {
     top: 14px;
@@ -60,7 +60,7 @@ nav a {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
 
   #baby-uno-logo {
   top: 2%;
@@ -88,7 +88,7 @@ nav a {
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
 
   #baby-uno-logo {
   top: 2%;
