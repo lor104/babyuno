@@ -9,8 +9,8 @@
 .shop {
   width: 92%;
   margin: 4%;
-  padding-bottom: 3%;
   padding: 1% 0;
+  padding-bottom: 3%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -44,10 +44,12 @@
   width: 100%;
 }
 .onesie-design {
-  width: 8%;
-  transform: translateY(-170%) translateX(67%);
+  width: 32%;
+  transform: translateY(-50%) translateX(-50%);
   z-index: 1;
   position: absolute;
+  top: 40%;
+  left: 50%;
 }
 
 .shop > a {
@@ -59,6 +61,7 @@
   cursor: pointer;
   text-align: center;
   display: inline-block;
+  position: relative;
 }
 
 a > span {

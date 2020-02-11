@@ -43,10 +43,13 @@
   width: 100%;
 }
 .onesie-design {
-  width: 7%;
+  width: 32%;
   transform: translateY(-164%) translateX(59%);
   z-index: 1;
   position: absolute;
+  top: 36%;
+  left: 51%;
+  transform: translate(-50%, -50%);
 }
 
 .shop > a {
@@ -58,6 +61,7 @@
   cursor: pointer;
   text-align: center;
   display: inline-block;
+  position: relative;
 }
 
 a > span {

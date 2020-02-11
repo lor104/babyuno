@@ -43,7 +43,7 @@
 
 .onesie {
   width: 50%;
-  height: 90%;
+  height: 110%;
   position: relative;
 }
 #onesie-img {
@@ -105,6 +105,7 @@ a > p {
   text-align: left;
   text-decoration: none;
   color: black;
+  position: relative;
 }
 
 .colors {
